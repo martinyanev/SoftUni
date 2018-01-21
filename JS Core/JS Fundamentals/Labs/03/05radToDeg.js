@@ -18,4 +18,4 @@ function toRad(a) {
     console.log(result);
 }
 //
-// toRad(-50);
+// toRad(100);
