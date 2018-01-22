@@ -79,3 +79,42 @@ function figureSquare(n) {
 }
 
 // figureSquare(4);
+
+
+function figureOf4Squares(num) {
+    // num=num.map(Number);
+
+    if(num===2) {
+        console.log('+++');
+        return;
+    }
+    console.log(`+`+`-`.repeat(num-2)+`+`+`-`.repeat(num-2)+`+`);
+
+
+    if(num>4) {
+        if (num % 2 === 0) {
+            for (let i = 0; i < (num - 4)/2; i++) {
+                console.log((`|`+` `.repeat(num-2)+`|`+` `.repeat(num-2)+`|`));
+            }
+        }
+        else if (num % 2 === 1) {
+            for (let i = 0; i < (num - 3)/2; i++) {
+                console.log((`|`+` `.repeat(num-2)+`|`+` `.repeat(num-2)+`|`));
+            }
+        }
+    }
+    console.log(`+`+`-`.repeat(num-2)+`+`+`-`.repeat(num-2)+`+`);
+    if(num>4) {
+        if (num % 2 === 0) {
+            for (let i = 0; i < (num - 4)/2; i++) {
+                console.log((`|`+` `.repeat(num-2)+`|`+` `.repeat(num-2)+`|`));
+            }
+        }
+        else if (num % 2 === 1) {
+            for (let i = 0; i < (num - 3)/2; i++) {
+                console.log((`|`+` `.repeat(num-2)+`|`+` `.repeat(num-2)+`|`));
+            }
+        }
+    }
+    console.log(`+`+`-`.repeat(num-2)+`+`+`-`.repeat(num-2)+`+`);
+}
