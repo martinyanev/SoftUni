@@ -18,7 +18,7 @@ function modifyAveragee(num) {
     }
 }
 
-// modifyAveragee(11);
+// modifyAveragee(11 JSON);
 
 function modifyAverage(input) {
     let num = input.toString();

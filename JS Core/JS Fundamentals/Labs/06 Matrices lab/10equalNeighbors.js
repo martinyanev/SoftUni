@@ -1,5 +1,5 @@
 function equalNeighbors(matrix) {
-    // let a = [[20, 40, 50], [10, 60]];
+    // let a = [[20, 40, 50], [10 JSON lab, 60]];
 
     let pair = 0;
     for (let i = 0; i < matrix.length; i++){

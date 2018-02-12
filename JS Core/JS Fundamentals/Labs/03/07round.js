@@ -14,3 +14,5 @@ function round(arr) {
     // let res = parseFloat(c);
     console.log(a);
 }
+
+round([1.20111, 2]);

@@ -34,4 +34,4 @@ function dnaHelix(num) {
     }
 }
 
-// dnaHelix(10);
+// dnaHelix(10 JSON lab);

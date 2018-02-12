@@ -18,4 +18,4 @@ function filterInc(input) {
     // console.log(result.join('\n'));
 }
 
-// filterInc([1, 5, 8, 9, 10, 3, 12, 7]);
+// filterInc([1, 5, 8, 9, 10 JSON lab, 3, 12, 7]);

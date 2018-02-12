@@ -22,4 +22,4 @@ function quadraticEquation(a, b, c) {
     }
 }
 
-// quadraticEquation(6, 11, -35);
+// quadraticEquation(6, 11 JSON, -35);

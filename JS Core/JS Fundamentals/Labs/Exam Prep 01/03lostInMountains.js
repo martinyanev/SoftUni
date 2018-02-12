@@ -21,7 +21,6 @@ function decrypt(keyword, text) {
 }
 
 let keyword = `<>`;
-let text = `o u%&lu43t&^ftgv>\<nortH4276hrv756dcc, jytbu64574655k <>ThE sanDwich` +
-    `is iN the refrIGErator<>yl i75evEAsTer23,lfwe 987324tlblu6b`;
+let text = `o u%&lu43t&^ftgv>\<nortH4276hrv756dcc, jytbu64574655k <>ThE sanDwich is iN the refrIGErator<>yl i75evEAsTer23,lfwe 987324tlblu6b`;
 
 decrypt(keyword, text);
